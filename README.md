@@ -7,6 +7,8 @@
 
 Dieses Python-Skript steuert ein Shelly-Relais basierend auf der Netzeinspeisung eines SolarEdge-Wechselrichters. Wenn eine bestimmte Einspeiseleistung (z. B. 6000 W) für 5 Minuten überschritten wird, wird das Shelly-Gerät aktiviert. Danach wird eine Sperrzeit von 60 Minuten eingehalten, bevor das Gerät erneut ausgelöst werden kann.
 
+Die Log-Datei wird täglich um 1 Uhr nachts gelöscht, um zu verhindern, dass sie sich unendlich vergrößert.
+
 #### Voraussetzungen 📌
 
 - Python 3.8 oder höher muss installiert sein.
@@ -51,16 +53,18 @@ LOCKOUT_TIME = 3600  # Sperrzeit in Sekunden
 Starte das Skript:
 
 ```
-python pvshelly.py
+python shelly_control.py
 ```
 
 ---
 
-### Englisch 🇬🇧
+### English 🇬🇧
 
 #### Description
 
 This Python script controls a Shelly relay based on the grid feed-in from a SolarEdge inverter. If a specified feed-in power (e.g., 6000 W) is exceeded for 5 minutes, the Shelly device is triggered. A lockout period of 60 minutes follows before it can be activated again.
+
+The log file is cleared daily at 1:00 AM to prevent it from growing indefinitely.
 
 #### Requirements 📌
 
