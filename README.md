@@ -51,7 +51,7 @@ LOCKOUT_TIME = 3600  # Sperrzeit in Sekunden
 Starte das Skript:
 
 ```
-python shelly_control.py
+python pvshelly.py
 ```
 
 ---
@@ -106,6 +106,6 @@ LOCKOUT_TIME = 3600  # Lockout time in seconds
 Run the script:
 
 ```
-python shelly_control.py
+python pvshelly.py
 ```
 
