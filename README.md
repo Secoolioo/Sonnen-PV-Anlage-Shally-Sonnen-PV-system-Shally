@@ -30,7 +30,7 @@ pip install requests
 
 #### Einrichtung 🔧
 
-Bearbeite die Konfigurationsvariablen in `shelly_control.py`:
+Bearbeite die Konfigurationsvariablen in `pvshelly.py`:
 
 ```
 SHELLY_IP = "192.168.1.100"
@@ -85,7 +85,7 @@ pip install requests
 
 #### Setup 🔧
 
-Edit the configuration variables in `shelly_control.py`:
+Edit the configuration variables in `pvshelly.py`:
 
 ```
 SHELLY_IP = "192.168.1.100"
